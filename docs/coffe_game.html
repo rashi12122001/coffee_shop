@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_menu.css">
+    <link rel="stylesheet" href="game.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href="\images\coffe_logo.png">
+    <title>menu</title>
+</head>
+<body style="background-color:#e9e5e5;">
+    <header id="top">
+        <a href="index.html"><img src="\images\coffe_logo.png" alt="logo_" class="logo"></a>
+        <div id="toggle" onclick="togglemenu()"></div>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="coffe_game.html">Coffee Game</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+     </header>
+     <section>
+        <div class="btnss">
+            <ul style="list-style: none;" id="gamee">
+                <li class="gamebtns"> <button type="button" onclick="changeImage()" class="btn pink" >base-1</button></li>
+                <li class="gamebtns"> <button type="button" onclick="changevanilla()"class="btn yellow" id="vanilla">base-2</button></li>
+                <li class="gamebtns"> <button type="button" onclick="changechoco()"class="btn brown" id="brown">base-3</button></li>
+                <br>
+                <li class="gamebtns"> <button type="button" onclick="changeice1()" class="btn pink " id="strawberry2">icing-1</button></li>
+                <li class="gamebtns"> <button type="button" onclick="changeice2()"class="btn yellow" id="vanilla2">icing-2</button></li>
+                <li class="gamebtns"> <button type="button" onclick="changeice3()"class="btn brown" id="brown2">icing-3</button></li>
+                <br>
+                <li class="gamebtns"> <button type="button" onclick="reset()" class="btn btn-secondary" id="brown2">reset</button></li>
+            </ul>
+        </div>
+            <img src="\images\main.png" id="img" alt="coffee_box">
+     </section>
+     <footer>
+        <a href="#top" class="btn"><img id="click" src="top.png" alt=""></a>
+       <img src="\images\coffe_logo.png" style="width: 50px;" alt="coffe_game">
+       <p>
+Designed with love by Rashi! thanks for stopping by.
+       </p>
+    </footer>
+    <script src="source.js"></script>
+</body>

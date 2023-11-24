@@ -1,0 +1,66 @@
+footer{
+    margin-top: 25px;
+}
+#img{
+    width: 500px;
+    position: absolute;
+    top: 199px;
+    left: 35%;
+    width: 40%;
+  }
+  div.gamebox{
+    position: absolute;
+      top: 200px;
+      left: 30%;
+      display: flex;
+      flex-direction: row;
+  }
+  div.gamebox ul li{
+    list-style-type: none;
+    margin: 5px;
+  }
+  .section ul{
+    display: flex;
+    list-style: none;
+  }
+  #gamee{
+    position: absolute;
+    list-style: none;
+    top: 220px;
+  }
+li.gamebtns{
+    margin: 10px;
+  }
+  section{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e9e5e5;
+}
+.pink.btn{
+    --bs-btn-bg: #ffaae0;
+--bs-btn-hover-border-color: #d57cb1;
+--bs-btn-hover-bg:#d57cb1;
+color: rgb(182, 15, 123);
+}
+.yellow.btn{
+    --bs-btn-bg: #fffbaa;
+--bs-btn-hover-border-color: #e3df8b;
+--bs-btn-hover-bg:#e3df8b;
+color: rgb(220, 155, 77);
+}
+.brown.btn{
+--bs-btn-bg: #654b44;
+color: bisque;
+--bs-btn-hover-border-color: #352b2b;
+--bs-btn-hover-bg:#44332e;
+}
+.brown:hover{
+    --bs-btn-hover-bg:#44332e;
+color: rgb(226, 203, 174);
+}
