@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;
+   
 }
 body { margin: 0;
 }
@@ -26,7 +27,6 @@ section{
     height: 100%;
     background:#654b44;
     clip-path: circle(69% at right -20%);
-
 }
 div.block1{
   height: 30vh;
@@ -240,9 +240,13 @@ hr.new1 {
   margin: 0px;
   
 }
+  .custom-cur {
+    cursor: url('https://static.vecteezy.com/system/resources/previews/014/501/095/original/coffee-bean-clipart-png.png') 10 12;
+  }
 div.containers{
 display: flex;
 margin: 10px;
+width: 50%;
 }
 @media (max-width:860px){
   swiper-slide img {

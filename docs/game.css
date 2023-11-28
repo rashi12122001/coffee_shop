@@ -43,7 +43,7 @@ li.gamebtns{
     background: #e9e5e5;
 }
 .pink.btn{
-    --bs-btn-bg: #ffaae0;
+--bs-btn-bg: #ffaae0;
 --bs-btn-hover-border-color: #d57cb1;
 --bs-btn-hover-bg:#d57cb1;
 color: rgb(182, 15, 123);

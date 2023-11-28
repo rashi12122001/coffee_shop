@@ -24,7 +24,7 @@ function togglemenu(){
     image.src = "/images/all_pink.png";
   }
   else{
-    image.src="/images/main.png";
+    // image.src="/images/main.png";
   }
 }
 function changeice2() {
@@ -37,7 +37,7 @@ function changeice2() {
         image.src = "/images/vanilla_pink.png";
       }
       else{
-        image.src="/images/main.png";
+        // image.src="/images/main.png";
       }
     }
     function changeice3() {
@@ -50,7 +50,7 @@ function changeice2() {
             image.src = "/images/choco_pink.png";
           }
           else{
-            image.src="/images/main.png";
+            // image.src="/images/main.png";
           }
         }
 function reset() {
