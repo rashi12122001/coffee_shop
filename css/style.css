@@ -1,0 +1,299 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+   
+}
+body { margin: 0;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e9e5e5;
+}
+.circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#654b44;
+    clip-path: circle(69% at right -20%);
+}
+div.block1{
+  height: 30vh;
+}
+div.container{
+  margin-top:200px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    justify-content: space-between;
+    background:linear-gradient(#654b44,#352b2b);
+}
+header .logo{
+    position: relative;
+    max-width: 100px;
+}
+.layout{
+  margin: auto;
+  width: 74vw;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.navigation{
+    list-style: none;
+    display: flex;
+}
+.navigation li a{
+  display: inline-block;
+  /* color: rgb(44, 25, 3); */
+  color:#e9e5e5;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 1.2rem;
+}
+.content{
+    position:relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;
+}
+.content .textbox h2{
+    color:#4b0707;
+    font-size: 3em;
+    margin-bottom: 10px;
+    line-height: 1.4em;
+    font-weight: 700;
+}
+.content .textbox p{
+    color: #352b2b;
+}
+.content .textbox a{
+    display: block;
+    margin: auto;
+    width: 132px;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background:#a06450;
+    color: #d7b7b7;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+swiper-container {
+    width:31.25rem;
+    height: 31.25em;
+  }
+
+  swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width:30rem;
+    height:30rem;
+    position: absolute;
+    bottom:0;
+    /* min-height: 100%; */
+    /* object-fit: cover; */
+  }
+  .content .imgbox{
+    width:31.25rem;
+    display:flex;
+    justify-content:flex-end;
+  }
+  .content .imgbox img{
+    max-width:150px;
+  }
+  @media (max-width:590px){
+section{
+  padding: 54px;
+}
+.navigation{
+  display: none;
+}
+#toggle{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background:url("menu.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  z-index: 10000;
+}
+#toggle.active{
+  margin: 25px;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background:url("cross.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  z-index: 10000;
+}
+header .navigation li a{
+  margin: 15px;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+header .active{
+  position: fixed;
+  right: 40px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#654b44;
+}
+  }
+  @media (max-width:512px){
+    *{
+      box-sizing: content-box;
+    }
+  }
+  @media (max-width:390px){
+    swiper-container {
+      width: 21.25rem;
+      height: 31.25em;
+  }
+  swiper-slide img{
+    width:200px;
+    height:200px;
+  }
+  }
+  @media (max-width:420px){
+    *{
+      box-sizing: content-box;
+    }
+    .content .textbox a{
+      width: 94px;
+  }
+      }
+@media (max-width:782px){
+  .content{
+    margin-top:10px ;
+    justify-content: space-around;
+  }
+  .layout{
+    flex-direction:column-reverse;
+    align-items: center;
+    margin: -100px;
+  }
+  swiper-slide img {
+    display: block;
+    margin-left: 5px;
+   width: 200px;
+   height:200px;
+   position: absolute;
+   bottom:0;
+}
+  .textBox{
+    margin-top: 320px;
+  }
+  .header{
+    padding: 10px 26px;
+  }
+  .content .textbox h2{
+    font-size:2.4rem;
+    text-align:center;
+  }
+}
+hr.new1 {
+  border-top: 10px solid #300e05;
+  background: #e9e5e5;
+  margin: 0px;
+  
+}
+  .custom-cur {
+    cursor: url('https://static.vecteezy.com/system/resources/previews/014/501/095/original/coffee-bean-clipart-png.png') 10 12;
+  }
+div.containers{
+display: flex;
+margin: 10px;
+width: 50%;
+}
+@media (max-width:860px){
+  swiper-slide img {
+        display: block;
+        margin-left: 10px;
+       width: 350px;
+       height:350px;
+       position: absolute;
+       bottom:0;
+  }
+  header .logo{
+    max-width: 95px;
+  }
+  .navigation li a{
+    color:#e9e5e5;
+  }
+  header{
+    padding: 16px 26px;
+  }
+  .layout{
+    margin: auto;
+    width: 74vw;
+  }
+}
+footer{
+  width: 100vw;
+  background:linear-gradient(#352b2b,#654b44);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e9e5e5;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+footer .p{
+  margin-top: 20px;
+}
+#click{
+  width: 30px;
+}
+
+/* div.container{
+  margin-top: 200px;
+}
+@media (min-width: 100px) and (max-width: 2000px){
+div.container {
+    margin-top: 200px;
+}
+} */
