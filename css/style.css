@@ -144,7 +144,7 @@ section{
   position: relative;
   width: 60px;
   height: 60px;
-  background:url("menu.png");
+  background:url("../menu.png");
   background-size: 60px;
   background-repeat: no-repeat;
   background-position: center;
