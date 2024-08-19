@@ -4,6 +4,7 @@ function togglemenu(){
     menut.classList.toggle('active');
     navigation.classList.toggle('active');
     }
+    // for the toggle function;
     var image = document.getElementById('img');
     function changeImage() {
         document.getElementById("img").src="./images/strawberry_base.png";

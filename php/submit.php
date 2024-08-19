@@ -1,30 +1,19 @@
 <?php
-// $name = isset($_POST['name']) ? $_POST['name'] : null;
-// $email = isset($_POST['email']) ? $_POST['email'] : null;
-// $message = isset($_POST['message']) ? $_POST['message'] : null;
-// $name = $_POST["name"];
-// $email = $_POST['email'];
-// $message = $_POST['message'];
-// //database connection
-// $conn = new mysqli('localhost', 'root', '', 'coffee_stop');
-// if ($conn->connect_error){
-//     die('connection failed' . $conn->connect_error);
-// } else {
-//     $stmt = $conn->prepare("insert into registration(name, email, message) values (?, ?, ?)");
-//     $stmt->bind_param("sss", $name, $email, $message);
-//     $stmt->execute();
-//     echo "registration Successfully...";
-//     $stmt->close();
-//     $conn->close();
-//     var_dump($_POST);
-// }
-
-$name = isset($_POST['name']) ;
-$email = isset($_POST['email']) ;
-$message = isset($_POST['message']);
-//database connection
+$name = isset($_POST['name']) ? $_POST['name'] : null;
+$email = isset($_POST['email']) ? $_POST['email'] : null;
+$message = isset($_POST['message']) ? $_POST['message'] : null;
+echo "Script is running!";
+error_reporting(E_ALL);
+if (!function_exists('mysqli_init') && !extension_loaded('mysqli')) {
+    echo 'We don\'t have mysqli!!!';
+} else {
+    echo 'Phew we have it!';
+}
+ini_set('display_errors', 1);
+var_dump($_POST);
+// Database connection
 $conn = new mysqli('localhost', 'root', '', 'coffee_stop');
-
+echo "Script is running!";
 if ($conn->connect_error) {
     die('Connection failed: ' . $conn->connect_error);
 } else {
@@ -44,5 +33,6 @@ if ($conn->connect_error) {
 
     $stmt->close();
     $conn->close();
+    
 }
 ?>

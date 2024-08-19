@@ -64,3 +64,44 @@ color: bisque;
     --bs-btn-hover-bg:#44332e;
 color: rgb(226, 203, 174);
 }
+@media screen and (max-width: 900px) {
+  #gamee {
+    position: relative;
+    display: flex;
+    list-style: none;
+    top: 150px;
+    z-index: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  /* ol, ul {
+    padding-left: 0;
+} */
+}
+@media screen and (max-width: 595px) {
+  section {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  #gamee {
+  position: relative;
+  display: flex;
+  list-style: none;
+  top: 200px;
+  z-index: 1;
+  flex-wrap: wrap;
+  /* margin: auto; */
+  flex-direction: row;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+  }
+
+  @media (max-width: 512px) {
+    * {
+        box-sizing: content-box;
+    }
+}
