@@ -1,3 +1,5 @@
+# Issues Faced
+1)php mysqli error 
 # coffee_shop
 <p align="center">
   <img src="https://github.com/rashi12122001/coffee_shop.github.io/assets/74211043/8b009ca4-f1fc-49c8-8413-7f6fed2569ba" alt="coffee_logo">
